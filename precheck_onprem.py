@@ -249,6 +249,6 @@ with open(output_file, "w") as file:
     file.write(policycoreutils_result + "\n")
     file.write("-" * 50 + "\n")
 
-file.write(f"\n{GREEN}System Status Report Generated Successfully!{RESET}\n")
+    file.write(f"\n{GREEN}System Status Report Generated Successfully!{RESET}\n")
 print(f"System status report has been saved to {output_file}")
 
